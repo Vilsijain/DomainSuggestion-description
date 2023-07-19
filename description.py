@@ -6,7 +6,7 @@ import os
 from functools import lru_cache
 
 app = Flask(__name__)
-openai.api_key = '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'
+openai.api_key = 'API_kEY'
 
 
 @lru_cache(maxsize=128)
